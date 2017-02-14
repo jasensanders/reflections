@@ -1,0 +1,28 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+I was able to see the changed lines and only the changed lines right next to on another.  It would be cool if it shwed the changes lines, then compared the lines to show changed characters.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+If a change required a rewrite of other systems, you would know what change required the rewrite very quickly.  If an update caused a crash, you could find the change quickly.  If a bad change keeps getting inserted into the code, you could easily find that change and possible who or what did it.  This allows a tangible view of the evolution of the code.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Manual commit pro's: The computer doesn't know neccesarily when its a good time to commit changes, in the manual method, you alwqays know the right time. The changes can be different catagories grouped by what you did (bugfix or new feature) Con's: what if you forget to commit changes? what if your commit was too big and now you can't  revert?  Automatic pro's: You never need to think about when to commit.  Can't forget to commit. Can configure commit intervals.  Automatic con's: Commits may be meaningless or redundant.  Commits not grouped into any type of change like a new feature or bug fix.  
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+The git version control system is designed with code in mind where it is more common that one file affects others. Google docs is more for human readable files like reports and images that do not have interrelated text.
+
+How can you use the commands git log and git diff to view the history of files?
+
+If you know the names of the commit or the message that describes the change, you can use that to find the id's ofthe commit you are looking for and the one previous to that. then use diff the show the differences.  Its versy useful for comaring changes.  As long as you know what those changes were called.
+
+How might using version control make you more confident to make changes that could break something?
+
+Any change you make can be undone as long as you test it after you commit it so that you know what change broke it.
+So then, break things, but commit logically and often, and test profusely.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Testing changes to files and logging those changes. 
