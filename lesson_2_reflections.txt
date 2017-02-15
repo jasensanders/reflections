@@ -6,3 +6,6 @@ You ned to do this to tell git that you want to track this directory.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area allows you to set up and arrage your changes before you actually make them.  This gives you the space to really think about your code before making changes.
+
+How can you use the staging area to make sure you have one commit per logical change?
+Compare the working directory changes to the staging area using git diff (No Args).  Make sure there is one change.
