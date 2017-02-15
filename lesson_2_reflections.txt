@@ -9,3 +9,9 @@ The staging area allows you to set up and arrage your changes before you actuall
 
 How can you use the staging area to make sure you have one commit per logical change?
 Compare the working directory changes to the staging area using git diff (No Args).  Make sure there is one change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches allow you to organize catagories of changes, such as changes for by a particular coder or feature.
+
+How do the diagrams help you visualize the branch structure?
+Diagrams show the branches as realted to thier children and commits and thier children.  This allows you to see the tree structure of the master in total.
