@@ -15,3 +15,9 @@ Branches allow you to organize catagories of changes, such as changes for by a p
 
 How do the diagrams help you visualize the branch structure?
 Diagrams show the branches as realted to thier children and commits and thier children.  This allows you to see the tree structure of the master in total.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The result is one branch with all changes included. It is represented in the diagram in such as way as to see the history of all the changes that happen before and where they came from.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Pros: All obvious changes are made for you, while conflits are managed manually. Cons: not always automatic.  Manual pros: conflicts are always handled. Cons: Must know the whole code base.
