@@ -6,3 +6,6 @@ What if a change was bad or introduced a bug? Then you would only want to push t
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
 A clone is a copy of the project incuding the commit history and log of all commits and branches. A Fork is a clone done on github's site. a branch is a commit that is tied to a specific person, feature, bugfix, or change that deviates from the main branch.  Branches would be used for people or features locally, while forks are used for variants of the whole project (Ex. Open Office vs Libra Office).  Cloning is a way to get the project into a directory locally this is done the first time you interact with a project.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+You will know how to merge local and remote repositories should they diverge and you have to merge them.
