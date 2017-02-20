@@ -9,3 +9,6 @@ A clone is a copy of the project incuding the commit history and log of all comm
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 You will know how to merge local and remote repositories should they diverge and you have to merge them.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+You could use email attachments, but the complexity of that could grow unmanagable quickly. You could use google drive on a shared single file or folder, but rolling back changes would not be automatic and would rely on people saving a new file for every change.  Its possible to review and verify changes manually, but the development process would slow down to a crawl.  There are other options beside git/github, but those are typically larger and heavier and potentially more costly.  
