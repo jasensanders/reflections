@@ -12,3 +12,6 @@ You will know how to merge local and remote repositories should they diverge and
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 You could use email attachments, but the complexity of that could grow unmanagable quickly. You could use google drive on a shared single file or folder, but rolling back changes would not be automatic and would rely on people saving a new file for every change.  Its possible to review and verify changes manually, but the development process would slow down to a crawl.  There are other options beside git/github, but those are typically larger and heavier and potentially more costly.  
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+New features are a great reason to branch off and well as to sperated packages of updates.  The main benefit is in organization and the ablitiy to add or roll back changes in a unifom way where commits for bug fixes are not mixed with feature addtions in development making error diagnosis much easier.
